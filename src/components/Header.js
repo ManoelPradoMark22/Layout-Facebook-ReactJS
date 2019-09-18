@@ -16,12 +16,12 @@ function Header() {
         <input type="text" placeholder="Pesquisar"></ input>
         <SearchButton />
         </div>
-        <div className="avatar">
+        <div className="navigation">
           <img src={avatar} alt="avatar"/>
-          <ul>
-            <li><span>Manoel</span></li>
-            <li><span>Página Inicial</span></li>
-            <li><span>Criar</span></li>
+          <ul className="navigation">
+            <li><span className="nav">Manoel</span></li>
+            <li><span className="nav">Página Inicial</span></li>
+            <li><span className="nav">Criar</span></li>
             <li>
               <ul className="icons">
                 <div><IconFriends/></div>

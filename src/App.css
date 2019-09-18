@@ -21,6 +21,7 @@ body {
   -webkit-font-smoothing: antialiased !important;
 }
 
+/*HEADER*/
 header {
   background: #4267B2;
   font-weight: bold;
@@ -64,31 +65,31 @@ nav div.search img.logo{
   width: 40px;
 }
 
-nav div.avatar {
+nav div.navigation {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-nav div.avatar ul {
+nav div.navigation ul.navigation {
   display: flex;
   list-style: none;
 
 }
 
-nav div.avatar ul li {
+nav div.navigation ul.navigation li {
   display: flex;
   align-items: center;
   margin-left: 10px;
 
 }
 
-nav div.avatar ul li:first-child{
+nav div.navigation ul.navigation li:first-child{
   margin-left:7px;
 
 }
 
-nav div.avatar ul li:after {
+nav div.navigation ul.navigation li:after {
   content: '';
   width: 1px;
   height: 18px;
@@ -96,7 +97,7 @@ nav div.avatar ul li:after {
   margin-left: 10px;
 }
 
-nav div.avatar ul li:last-child:after{
+nav div.navigation ul.navigation li:last-child:after{
   content: '';
   background: #4267B2;
   margin:0;
@@ -104,30 +105,121 @@ nav div.avatar ul li:last-child:after{
   height: 0;
 }
 
-nav div.avatar span {
+nav div.navigation ul.navigation span.nav {
   font-size: 12px;
 }
 
-nav div.avatar span:first-child {
+nav div.navigation ul.navigation span.nav:first-child {
   margin-left: 0;
 }
 
-nav div.avatar > img {
+nav div.navigation > img {
   height: 27px;
   width: 27px;
   border-radius: 50%;
 }
 
-nav div.avatar ul.icons {
+nav div.navigation ul.icons {
   display:flex;
 }
 
-nav div.avatar ul.icons div:first-child{
+nav div.navigation ul.icons div:first-child{
   margin:0;
 }
 
-nav div.avatar ul.icons div {
+nav div.navigation ul.icons div {
   margin-left: 15px;
 }
 
+/*TIMELINE*/
+.postlist {
+  width: 700px;
+  margin: 0 auto 20px;
+}
 
+.post {
+  margin-top: 20px;
+  border-radius: 8px;
+  background: white;
+  padding: 20px;
+  color: #3e3e3e;
+  line-height: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-header div.info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  color: #9a9a9a;
+  line-height: 14px;
+}
+
+.post-header .info span:first-child {
+  font-size: 14px;
+  color: #4a4a4a;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.avatar {
+  min-height: 32px;
+  min-width: 32px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.post-content {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: #eeeeee;
+}
+
+.post-comments {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-top: 20px;
+  display: flex;
+}
+
+.comment div.involvetolike p {
+  border-radius: 20px;
+  background: #eeeeee;
+  margin-left: 10px;
+  padding: 15px;
+  font-size: 13px;
+}
+
+.comment span {
+  font-weight: bold;
+  margin-right: 6px;
+  color: #385898;
+}
+
+.comment div.involvetolike{
+  display: flex;
+  flex-direction: column;
+}
+
+.comment div.involvetolike span.like {
+  font-weight: normal;
+  font-size: 12px;
+  margin-left: 25px;
+  margin-top: 2px;
+  color: #4267B2;
+}
