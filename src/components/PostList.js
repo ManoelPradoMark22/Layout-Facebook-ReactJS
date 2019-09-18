@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 import PostItem from './PostItem';
-import itala from '../assets/itala.png';
-import profile from '../assets/profile.jpg'
-import lara from '../assets/lara.png'
-import rayane from '../assets/rayane.png'
 
 class PostList extends Component {
   state={
