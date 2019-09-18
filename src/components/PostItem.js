@@ -19,11 +19,11 @@ function IconsLikeComment(){
       <div className="divider"></div>
       <ul className="likeAndComment">
         <li className="iconlike">
-          <img className="imglike" src="https://www.amazon.com/drive/v1/nodes/Z-6C3OHeS6miQCQAvzzB8A/contentRedirection?querySuffix=%3FviewBox%3D512%2C512&ownerId=A3LBHEQFJMXJ9&cb=1568826887646"/>
+          <img className="imglike" src="https://i.ibb.co/7V9nT9h/like.png"/>
           <span className="spaniconsLikesComments">Curtir</span>
         </li>
         <li className="iconcomment">
-          <img className="imgComment" src="https://www.amazon.com/drive/v1/nodes/gNwTiiQPQd-XzBnu-mGcTg/contentRedirection?querySuffix=%3FviewBox%3D200%2C200&ownerId=A3LBHEQFJMXJ9&cb=1568826895498"/>
+          <img className="imgComment" src="https://i.ibb.co/phgZC1L/comment.png"/>
           <span className="spaniconsLikesComments">Comentar</span>
         </li>
       </ul>
@@ -43,7 +43,10 @@ function PostComments({ comments }) {
               <span className="infocomment">{comment.author.name}</span>
               {comment.content}
             </p>
-            <span className="likeComment">Curtir</span>
+            <ul className="likeComment">
+            <li><span>Curtir</span></li>
+            <li><span>Responder</span></li>
+            </ul>
           </div>
         </div>
       ))}

@@ -18,7 +18,7 @@ class PostList extends Component {
         id: 2,
         author: {
           name: 'Ítala Xavier',
-          avatar: 'https://www.amazon.com/drive/v1/nodes/68JRa25oQhuaNc3lFsic0Q/contentRedirection?querySuffix=%3FviewBox%3D291%2C291&ownerId=A3LBHEQFJMXJ9&cb=1568823010064',
+          avatar: 'https://i.ibb.co/h7gcsZr/itala.jpg',
         },
         date: '10 Jun 2019',
         content: 'MEDICINA UESB 2019.2!!!!',
@@ -27,7 +27,7 @@ class PostList extends Component {
             id: 1,
             author: {
               name: 'Manoel Prado',
-              avatar: 'https://www.amazon.com/drive/v1/nodes/TZBfquKTQ4-rb07N53SqfA/contentRedirection?querySuffix=%3FviewBox%3D427%2C422&ownerId=A3LBHEQFJMXJ9&cb=1568821467824',
+              avatar: 'https://i.ibb.co/94DTqs6/manoel.jpg',
             },
             content: 'Parabéns!!!!! Minha Feicidade por ti nesse momento nem cabe no peito, transborda! MedGata!',
           },
@@ -35,7 +35,7 @@ class PostList extends Component {
             id: 2,
             author: {
               name: 'Lara Thairine',
-              avatar: 'https://www.amazon.com/drive/v1/nodes/zbNWaJ7NSDah375gC9eciA/contentRedirection?querySuffix=%3FviewBox%3D292%2C293&ownerId=A3LBHEQFJMXJ9&cb=1568821466894',
+              avatar: 'https://i.ibb.co/wwJWKX8/lara.jpg',
             },
             content: 'Parabéns amiga!!! A MedGata mais top!! Te amo!!',
           },
@@ -43,7 +43,7 @@ class PostList extends Component {
             id: 3,
             author: {
               name: 'Rayane Tamires',
-              avatar: 'https://www.amazon.com/drive/v1/nodes/Uq9iZ2RORM6cHpXS4qVMbg/contentRedirection?querySuffix=%3FviewBox%3D292%2C291&ownerId=A3LBHEQFJMXJ9&cb=1568821468597',
+              avatar: 'https://i.ibb.co/gD4ptyp/rayane.jpg',
             },
             content: 'Sabia!!! Te amo amiga, vc merece! Pode preparar um plano de graça pra mim qnd montar seu consultório!',
           },
@@ -53,7 +53,7 @@ class PostList extends Component {
         id: 3,
         author: {
           name: 'Lucas José',
-          avatar: 'https://www.amazon.com/drive/v1/nodes/hmEl_-m5SQ2HWFjWWe4XOQ/contentRedirection?querySuffix=%3FviewBox%3D293%2C292&ownerId=A3LBHEQFJMXJ9&cb=1568823648992',
+          avatar: 'https://i.ibb.co/vq4x1H7/lucas.jpg',
         },
         date: '28 Jan 2019',
         content: 'Só não apaguei o facebook ainda por causa dos posts do Paulo Vitor CS',
@@ -62,7 +62,7 @@ class PostList extends Component {
             id: 4,
             author: {
               name: 'Paulo Vitor CS',
-              avatar: 'https://www.amazon.com/drive/v1/nodes/yWJIMWbDSsGTJ5ldCaDKoA/contentRedirection?querySuffix=%3FviewBox%3D292%2C291&ownerId=A3LBHEQFJMXJ9&cb=1568823650367',
+              avatar: 'https://i.ibb.co/hDYk05N/paulo.jpg',
             },
             content: 'É nois, bro <3',
           },
@@ -70,7 +70,7 @@ class PostList extends Component {
             id: 5,
             author: {
               name: 'Paulo Vitor CS',
-              avatar: 'https://www.amazon.com/drive/v1/nodes/yWJIMWbDSsGTJ5ldCaDKoA/contentRedirection?querySuffix=%3FviewBox%3D292%2C291&ownerId=A3LBHEQFJMXJ9&cb=1568823650367',
+              avatar: 'https://i.ibb.co/hDYk05N/paulo.jpg',
             },
             content: 'Pode sempre contar comigo pra postar shitpost',
           },
@@ -78,7 +78,7 @@ class PostList extends Component {
             id: 6,
             author: {
               name: 'Ana Elizia',
-              avatar: 'https://www.amazon.com/drive/v1/nodes/S7ngeQ_VS9KLgBnoRTPZbA/contentRedirection?querySuffix=%3FviewBox%3D288%2C291&ownerId=A3LBHEQFJMXJ9&cb=1568823923683',
+              avatar: 'https://i.ibb.co/7JXw2xy/anaelizia.jpg',
             },
             content: 'E pq vc ainda não atualizou seu status de relacionamento pra namorando cmg...kkkkkkkkk',
           },
