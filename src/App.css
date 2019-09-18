@@ -132,6 +132,8 @@ nav div.navigation ul.icons div {
 }
 
 /*TIMELINE*/
+
+/*POSTS*/
 .postlist {
   width: 700px;
   margin: 0 auto 20px;
@@ -181,6 +183,7 @@ nav div.navigation ul.icons div {
   font-size: 14px;
 }
 
+/*Barra like e comments*/
 .divider {
   width: 100%;
   height: 1px;
@@ -191,7 +194,7 @@ nav div.navigation ul.icons div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .icons-like-comment ul.likeAndComment{
@@ -200,38 +203,33 @@ nav div.navigation ul.icons div {
   align-items: center;
 }
 
-.icons-like-comment ul.likeAndComment li.like img.imglike {
+.icons-like-comment ul.likeAndComment li.iconlike img.imglike {
   height: 40px;
   width: 40px;
 }
 
-.icons-like-comment ul.likeAndComment li.comment img.imgComment{
+.icons-like-comment ul.likeAndComment li.iconcomment img.imgComment{
   height: 23px;
   width: 23px;
 }
 
-.icons-like-comment ul.likeAndComment li.like{
+.icons-like-comment ul.likeAndComment li.iconlike{
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 150px;
-  margin-top: 20px;
 }
 
-.icons-like-comment ul.likeAndComment li.comment{
+.icons-like-comment ul.likeAndComment li.iconcomment{
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-right: 150px;
 }
 
-.icons-like-comment ul.likeAndComment span.spaniconsLikesComments {
-  font-weight: normal;
-  color: #000;
-}
-
+/*Comentários*/
 .post-comments {
-  margin-top: 10px;
+  margin-top: 2px;
 }
 
 .comment {
@@ -247,15 +245,15 @@ nav div.navigation ul.icons div {
   font-size: 13px;
 }
 
-.comment span.infocomment {
-  font-weight: bold;
-  margin-right: 6px;
-  color: #385898;
-}
-
 .comment div.involvetolike{
   display: flex;
   flex-direction: column;
+}
+
+.comment div.involvetolike p span.infocomment {
+  font-weight: bold;
+  margin-right: 6px;
+  color: #385898;
 }
 
 .comment div.involvetolike span.likeComment {

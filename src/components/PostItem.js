@@ -18,11 +18,11 @@ function IconsLikeComment(){
     <div className="icons-like-comment">
       <div className="divider"></div>
       <ul className="likeAndComment">
-        <li className="like">
+        <li className="iconlike">
           <img className="imglike" src="https://www.amazon.com/drive/v1/nodes/Z-6C3OHeS6miQCQAvzzB8A/contentRedirection?querySuffix=%3FviewBox%3D512%2C512&ownerId=A3LBHEQFJMXJ9&cb=1568826887646"/>
           <span className="spaniconsLikesComments">Curtir</span>
         </li>
-        <li className="comment">
+        <li className="iconcomment">
           <img className="imgComment" src="https://www.amazon.com/drive/v1/nodes/gNwTiiQPQd-XzBnu-mGcTg/contentRedirection?querySuffix=%3FviewBox%3D200%2C200&ownerId=A3LBHEQFJMXJ9&cb=1568826895498"/>
           <span className="spaniconsLikesComments">Comentar</span>
         </li>
@@ -40,7 +40,7 @@ function PostComments({ comments }) {
           <img src={comment.author.avatar} className="avatar"/>
           <div className="involvetolike">
             <p>
-              <span classe="infocomment">{comment.author.name}</span>
+              <span className="infocomment">{comment.author.name}</span>
               {comment.content}
             </p>
             <span className="likeComment">Curtir</span>
