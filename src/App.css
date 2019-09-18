@@ -181,15 +181,57 @@ nav div.navigation ul.icons div {
   font-size: 14px;
 }
 
-
 .divider {
   width: 100%;
   height: 1px;
   background: #eeeeee;
 }
 
-.post-comments {
+.icons-like-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.icons-like-comment ul.likeAndComment{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons-like-comment ul.likeAndComment li.like img.imglike {
+  height: 40px;
+  width: 40px;
+}
+
+.icons-like-comment ul.likeAndComment li.comment img.imgComment{
+  height: 23px;
+  width: 23px;
+}
+
+.icons-like-comment ul.likeAndComment li.like{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 150px;
   margin-top: 20px;
+}
+
+.icons-like-comment ul.likeAndComment li.comment{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 150px;
+}
+
+.icons-like-comment ul.likeAndComment span.spaniconsLikesComments {
+  font-weight: normal;
+  color: #000;
+}
+
+.post-comments {
+  margin-top: 10px;
 }
 
 .comment {
@@ -205,7 +247,7 @@ nav div.navigation ul.icons div {
   font-size: 13px;
 }
 
-.comment span {
+.comment span.infocomment {
   font-weight: bold;
   margin-right: 6px;
   color: #385898;
@@ -216,10 +258,14 @@ nav div.navigation ul.icons div {
   flex-direction: column;
 }
 
-.comment div.involvetolike span.like {
+.comment div.involvetolike span.likeComment {
   font-weight: normal;
   font-size: 12px;
   margin-left: 25px;
   margin-top: 2px;
   color: #4267B2;
 }
+
+
+
+

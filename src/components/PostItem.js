@@ -12,6 +12,25 @@ function PostHeader({author, date}){
   );
 }
 
+
+function IconsLikeComment(){
+  return(
+    <div className="icons-like-comment">
+      <div className="divider"></div>
+      <ul className="likeAndComment">
+        <li className="like">
+          <img className="imglike" src="https://www.amazon.com/drive/v1/nodes/Z-6C3OHeS6miQCQAvzzB8A/contentRedirection?querySuffix=%3FviewBox%3D512%2C512&ownerId=A3LBHEQFJMXJ9&cb=1568826887646"/>
+          <span className="spaniconsLikesComments">Curtir</span>
+        </li>
+        <li className="comment">
+          <img className="imgComment" src="https://www.amazon.com/drive/v1/nodes/gNwTiiQPQd-XzBnu-mGcTg/contentRedirection?querySuffix=%3FviewBox%3D200%2C200&ownerId=A3LBHEQFJMXJ9&cb=1568826895498"/>
+          <span className="spaniconsLikesComments">Comentar</span>
+        </li>
+      </ul>
+    </div>
+  );
+}
+
 function PostComments({ comments }) {
   return(
     <div className="post-comments">
@@ -21,10 +40,10 @@ function PostComments({ comments }) {
           <img src={comment.author.avatar} className="avatar"/>
           <div className="involvetolike">
             <p>
-              <span>{comment.author.name}</span>
+              <span classe="infocomment">{comment.author.name}</span>
               {comment.content}
             </p>
-            <span className="like">Curtir</span>
+            <span className="likeComment">Curtir</span>
           </div>
         </div>
       ))}
@@ -37,6 +56,7 @@ function PostItem({ author, date, content, comments }) {
     <div className="post">
       <PostHeader author={author} date={date} />
       <p className="post-content">{content}</p>
+      <IconsLikeComment/>
       <PostComments comments={comments} />
     </div>
   );
