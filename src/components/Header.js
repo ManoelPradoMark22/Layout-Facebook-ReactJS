@@ -1,8 +1,11 @@
 import React from 'react';
 import avatar from '../assets/profile.jpg'
 import logo from '../assets/logo.png'
-import Search from './SvgComponent'
-import SearchButton from './searchButton'
+import SearchButton from '../assets/searchButton'
+import IconFriends from '../assets/iconFriends'
+import IconMessages from '../assets/iconMessages'
+import IconNotifications from '../assets/iconNotifications'
+import IconConfigurations from '../assets/iconConfigurations'
 
 function Header() {
   return (
@@ -15,7 +18,19 @@ function Header() {
         </div>
         <div className="avatar">
           <img src={avatar} alt="avatar"/>
-          <span>Manoel</span>
+          <ul>
+            <li><span>Manoel</span></li>
+            <li><span>Página Inicial</span></li>
+            <li><span>Criar</span></li>
+            <li>
+              <ul className="icons">
+                <div><IconFriends/></div>
+                <div><IconMessages/></div>
+                <div><IconNotifications/></div>
+              </ul>
+            </li>
+            <li><IconConfigurations/></li>
+          </ul>
         </div>
       </nav>
     </header>
